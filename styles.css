@@ -1,5 +1,5 @@
 .navft {
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .navbar-brand {
@@ -13,3 +13,8 @@ body {
 .list-group-item{
     padding-right: 500px;
 }
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-secondary-bg);
+  }
+  
