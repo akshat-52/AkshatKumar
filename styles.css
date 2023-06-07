@@ -9,15 +9,20 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0A0C10 !important;
-    /* min-height: 100vh;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column; */
+    flex-direction: column;
+
+    /* min-height: 100vh;
+    position: relative; */
 }
 
 footer{
-    position: absolute;
+    /* position: absolute; */
+    /* position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
+    margin-top: auto;
 }
 
 .list-group-item{
@@ -32,6 +37,110 @@ footer{
     color: white;
 }
 
+.sub {
+    color: #ffa500;
+}
+
 a {
     text-decoration: none !important;
+    /* color: #ffa500 !important; */
+}
+
+h5 {
+    color: #ffa500 !important;
+}
+
+.btn-warningg {
+    background-color: #ffa500 !important;
+    color: #0a0c10  !important;
+}
+
+.btn-python {
+    background-color: #F1B30C;
+    color: #4D64B7;
+}
+
+.btn-cpp {
+    background-color: #005697;
+    color: white;
+}
+
+.btn-android-studio {
+    background-color: #44d984;
+    color: #183c4d;
+}
+
+.btn-css {
+    background-color: #2465f1;
+    color: white;
+}
+
+.btn-html {
+    background-color: #F16524;
+    color: white;
+}
+
+.btn-react {
+    background-color: #212121;
+    color: #00D1F7;
+}
+
+.btn-node {
+    background-color: #59A745;
+    color: black;
+}
+
+.btn-firebase {
+    background-color: #0396DE;
+    color: #F7C62F;
+}
+
+.btn-git {
+    background-color: white;
+    color: #E84D31;
+}
+
+.btn-mongo {
+    background-color: 001D2A;
+    color: #00E661;
+}
+
+.btn-vscode {
+    background-color: #0076C6;
+    color: black;
+}
+
+.btn-github {
+    background-color: black;
+    color: white;
+}
+
+.btn-android- {
+    background-color: white;
+    color: #3BD481;
+}
+
+.btn-netbeans {
+    background-color: #7896CD;
+    color: white;
+}
+
+.btn-figma {
+    background-color: white;
+    color: black;
+}
+
+.btn-microsoft {
+    background-color: black;
+    color: rgb(115, 10, 10);
+}
+
+.btn-adobe {
+    background-color: #310000;
+    color: #F79500;
+}
+
+.btn-canva {
+    background-color: white;
+    color: #3875D2;
 }
